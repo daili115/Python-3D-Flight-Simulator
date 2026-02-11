@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D 飞行模拟器（Web 版）</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <canvas id="game" width="1280" height="720" aria-label="飞行模拟器画布"></canvas>
+      <section class="overlay" id="overlay">
+        <h1>3D 飞行模拟器（Web 版）</h1>
+        <p>使用 <kbd>W/S</kbd> 控制俯仰，<kbd>A/D</kbd> 控制滚转，<kbd>↑/↓</kbd> 控制油门。</p>
+        <p>穿越光环得分，避开障碍。按 <kbd>Space</kbd> 开始 / 重新开始。</p>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
